@@ -1,10 +1,23 @@
-# 🧠 Richard "Chip" Dougherty  
+<div align="center">
+
+# 🧠 Richard "Chip" Dougherty
 **Systems Architect • SIGINT-Inspired Geospatial & Wireless Intelligence Systems**
+
+<br>
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=cyclonite69&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cyclonite69&theme=tokyonight&show_icons=true&hide_border=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cyclonite69&theme=tokyonight&show_icons=true&hide_border=true&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=cyclonite69&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
 
 ---
 
 ### 🔍 Overview
-I design and maintain **ShadowCheck**, a layered geospatial signal intelligence ecosystem. My work focuses on the intersection of wireless RF analysis, forensic-grade data processing, and hardened AWS infrastructure. I prioritize system reproducibility, data integrity, and modular architecture over monolithic design.
+I design and maintain the **ShadowCheck Geospatial Signal Intelligence Platform**. My work focuses on the intersection of wireless RF analysis, forensic-grade data processing, and hardened AWS infrastructure. I prioritize system reproducibility, data integrity, and modular architecture over monolithic design.
 
 ---
 
@@ -25,20 +38,20 @@ I design and maintain **ShadowCheck**, a layered geospatial signal intelligence 
 
 ## 🚀 ShadowCheck System Architecture
 
-The ecosystem is structured as a unidirectional data flow pipeline, ensuring strict separation of concerns from field collection to analytical visualization.
+ShadowCheck is not a collection of isolated projects; it is a unified, layered system designed with strict unidirectional data flow. It ensures forensic-grade data integrity from field capture through to analytical visualization.
 
-### 🛰️ Collection Layer (Data Sources)
-*   **WiGLE Integration:** Strategic utilization of external bootstrap datasets for system cold-start and validation.
-*   **ShadowCheckMobile:** Developing a first-party Android signal collection suite for high-fidelity, sovereign data capture.
+### 🛰️ Collection Layer
+*   **WiGLE:** External bootstrap dataset utilized strictly for cold-start validation, not a system dependency.
+*   **ShadowCheckMobile:** First-party Android RF collection system designed for sovereign, high-fidelity signal capture.
 
-### 📥 Ingestion / Transport Layer
-*   **AWS S3 Pipeline (dbcoopers-briefcase):** A dedicated ingestion infrastructure for staging, validating, and moving field telemetry into processing environments.
+### 📥 Ingestion Layer (AWS S3)
+*   **dbcoopers-briefcase:** AWS S3-based infrastructure pipeline handling the staging, validation, and secure transport of raw field telemetry into processing environments.
 
-### ⚙️ Processing Layer (Core Engine)
-*   **ShadowCheck:** The primary analytical engine responsible for signal enrichment, emitter classification (transient vs. persistent), and normalization into geospatial datasets.
+### ⚙️ Processing Layer
+*   **ShadowCheck Core Engine:** The primary analytical engine responsible for signal ingestion, enrichment, emitter classification (differentiating transient vs. persistent), and geospatial normalization into PostGIS.
 
-### 🗺️ Visualization / Control Layer
-*   **ShadowCheckWeb:** The primary system interface. A React and Mapbox-driven geospatial intelligence dashboard for real-time analysis and operational interaction.
+### 🗺️ Visualization Layer
+*   **ShadowCheckWeb:** The primary operational control plane. A React and Mapbox-driven interface providing real-time and historical geospatial intelligence visualization.
 
 ---
 
@@ -52,26 +65,26 @@ The ecosystem is structured as a unidirectional data flow pipeline, ensuring str
 ---
 
 ## 📡 Specialized Domains
-*   **Wireless / RF Analysis:** SIGINT-inspired signal characterization and tracking.
-*   **Geospatial Systems:** PostGIS optimization and coordinate system integrity.
-*   **AWS Cloud Infrastructure:** Hardened environments (IAM, S3, EC2 Graviton/ARM64).
-*   **Android Systems:** Sideloading, telemetry control, and edge ingestion.
+*   **Wireless / RF Analysis:** Wi-Fi, BLE, and spectrum behavior characterization.
+*   **Geospatial Systems:** PostGIS optimization and strict coordinate integrity.
+*   **AWS Cloud Infrastructure:** Hardened IAM, S3 pipelines, and EC2 Graviton deployment.
+*   **Android Systems:** Sideloading, telemetry control, and edge-capture optimization.
 *   **Energetics & Propulsion:** Research into APCP burn dynamics and propulsion patents.
 
 ---
 
 ## 🛡️ Security & Infrastructure
 *   **DNS Hardening:** Privacy-first resolution via Unbound and dnscrypt-proxy.
-*   **Enforcement:** Strict DNSSEC validation and UFW-managed security policies.
+*   **Enforcement:** Strict DNSSEC validation and UFW-managed firewall policies.
 *   **Least Privilege:** Mandatory non-root execution environments and minimal attack surfaces.
 
 ---
 
 ## ⌨️ Workflow Style
-*   **Multi-agent AI:** Leveraging Claude, GPT, and Gemini for accelerated R&D and logic auditing.
-*   **CLI-First:** Terminal-driven engineering and systems administration.
-*   **Execution Framework:** Modular Python structures for repeatable research tasks.
-*   **Versioned Iteration:** Strict version control and CI/CD for system reproducibility.
+*   **Multi-agent AI:** Leveraging Claude, GPT, and Gemini for accelerated logic auditing.
+*   **CLI-First:** Terminal-driven engineering and operational administration.
+*   **Execution Framework:** Modular Python structures for reproducible research.
+*   **Versioned Iteration:** Strict, version-controlled reproducibility across all pipelines.
 
 ---
 
@@ -83,9 +96,9 @@ The ecosystem is structured as a unidirectional data flow pipeline, ensuring str
 ---
 
 ## 🎯 Current Focus
-*   **Modular Refactoring:** Transitioning ShadowCheck into a clean, componentized architecture.
-*   **Pipeline Reliability:** Hardening the ingestion transport layer for increased field data volume.
-*   **Signal Classification:** Enhancing algorithms for precision geospatial enrichment.
+*   **ShadowCheck modular refactoring:** Transitioning into a highly componentized architecture.
+*   **AWS ingestion pipeline hardening:** Securing the data transport layer for increased volume.
+*   **Signal classification improvements:** Enhancing algorithms for precision geospatial enrichment.
 *   **Sovereign Collection:** Accelerating the migration from WiGLE dependencies to ShadowCheckMobile.
 
 ---
