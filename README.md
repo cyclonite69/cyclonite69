@@ -1,5 +1,5 @@
-# Chip Dougherty
-## Systems Architect • SIGINT-Inspired Data Engineering • Cloud & Geospatial Systems
+# 🧠 Chip Dougherty  
+**Systems Architect • SIGINT-Inspired Data Engineering • Cloud & Geospatial Systems**
 
 ---
 
