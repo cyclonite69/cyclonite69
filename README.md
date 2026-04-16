@@ -3,6 +3,8 @@
 # 🧠 Richard "Chip" Dougherty
 **Systems Architect • SIGINT-Inspired Geospatial & Wireless Intelligence Systems**
 
+[![Email](https://img.shields.io/badge/Email-cyclonite01%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:cyclonite01@gmail.com)
+
 <br>
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=cyclonite69&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
@@ -64,19 +66,29 @@ ShadowCheck is not a collection of isolated projects; it is a unified, layered s
 
 ---
 
-## 📡 Specialized Domains
+<details>
+<summary><strong>📡 Specialized Domains</strong> (Click to expand)</summary>
+<br>
+
 *   **Wireless / RF Analysis:** Wi-Fi, BLE, and spectrum behavior characterization.
 *   **Geospatial Systems:** PostGIS optimization and strict coordinate integrity.
 *   **AWS Cloud Infrastructure:** Hardened IAM, S3 pipelines, and EC2 Graviton deployment.
 *   **Android Systems:** Sideloading, telemetry control, and edge-capture optimization.
 *   **Energetics & Propulsion:** Research into APCP burn dynamics and propulsion patents.
 
+</details>
+
 ---
 
-## 🛡️ Security & Infrastructure
+<details>
+<summary><strong>🛡️ Security & Infrastructure</strong> (Click to expand)</summary>
+<br>
+
 *   **DNS Hardening:** Privacy-first resolution via Unbound and dnscrypt-proxy.
 *   **Enforcement:** Strict DNSSEC validation and UFW-managed firewall policies.
 *   **Least Privilege:** Mandatory non-root execution environments and minimal attack surfaces.
+
+</details>
 
 ---
 
@@ -104,3 +116,8 @@ ShadowCheck is not a collection of isolated projects; it is a unified, layered s
 ---
 
 > "Build systems that explain themselves. Trust data you can trace. Eliminate noise until only signal remains."
+
+<br>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=cyclonite69&style=flat&color=1a1b26&label=PROFILE+VIEWS" alt="Profile Views Counter" />
+</div>
