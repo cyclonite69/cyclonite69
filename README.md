@@ -1,10 +1,10 @@
-# 🧠 Chip Dougherty  
-**Systems Architect • SIGINT-Inspired Data Engineering • Cloud & Geospatial Systems**
+# 🧠 Richard "Chip" Dougherty  
+**Systems Architect • SIGINT-Inspired Geospatial & Wireless Intelligence Systems**
 
 ---
 
 ### 🔍 Overview
-Systems Architect focused on wireless signal intelligence (Wi-Fi / BLE), geospatial integrity via PostGIS, and hardened AWS infrastructure (ARM64/Graviton). I build forensic-grade data collection systems with a focus on reproducibility, end-to-end telemetry control, and high-signal data engineering.
+I design and maintain **ShadowCheck**, a layered geospatial signal intelligence ecosystem. My work focuses on the intersection of wireless RF analysis, forensic-grade data processing, and hardened AWS infrastructure. I prioritize system reproducibility, data integrity, and modular architecture over monolithic design.
 
 ---
 
@@ -23,74 +23,70 @@ Systems Architect focused on wireless signal intelligence (Wi-Fi / BLE), geospat
 
 ---
 
-## 🛠️ Core Stack
-* **Languages:** TypeScript, JavaScript (Node.js), Python, SQL
-* **Backend:** Node.js, Express
-* **Database:** PostgreSQL + PostGIS
-* **Cloud:** AWS (EC2, S3, IAM, VPC)
-* **Systems:** Linux (Kali, Parrot OS), Android
-* **Frontend:** React, Vite, Mapbox GL
-* **Tooling:** Git, CLI workflows
+## 🚀 ShadowCheck System Architecture
 
----
+The ecosystem is structured as a unidirectional data flow pipeline, ensuring strict separation of concerns from field collection to analytical visualization.
 
-## 🚀 Active Projects
-* **ShadowCheck**
-    * Core signal processing engine and wireless intelligence framework.
-* **ShadowCheckWeb**
-    * High-density geospatial visualization and analytics interface.
-* **ShadowCheckMobile**
-    * Android edge-collection suite for high-fidelity signal capture.
-* **dbcoopers-briefcase**
-    * Forensic toolkit for systems engineering and data integrity research.
+### 🛰️ Collection Layer (Data Sources)
+*   **WiGLE Integration:** Strategic utilization of external bootstrap datasets for system cold-start and validation.
+*   **ShadowCheckMobile:** Developing a first-party Android signal collection suite for high-fidelity, sovereign data capture.
+
+### 📥 Ingestion / Transport Layer
+*   **AWS S3 Pipeline (dbcoopers-briefcase):** A dedicated ingestion infrastructure for staging, validating, and moving field telemetry into processing environments.
+
+### ⚙️ Processing Layer (Core Engine)
+*   **ShadowCheck:** The primary analytical engine responsible for signal enrichment, emitter classification (transient vs. persistent), and normalization into geospatial datasets.
+
+### 🗺️ Visualization / Control Layer
+*   **ShadowCheckWeb:** The primary system interface. A React and Mapbox-driven geospatial intelligence dashboard for real-time analysis and operational interaction.
 
 ---
 
 ## 🧠 Engineering Philosophy
-* **Structure first, then scale:** Prevent debt through rigorous architectural foundations.
-* **Modularity over monoliths:** Distributed, decoupled, and observable systems.
-* **Forensic mindset:** Traceable data and non-negotiable integrity.
-* **Signal over noise:** Aggressive filtering to surface high-value insights.
-* **Automation with intent:** Purpose-driven scripting and lifecycle orchestration.
+*   **Structure first, then scale:** Prevent technical debt through rigorous architectural foundations.
+*   **Modularity over monoliths:** Distributed, decoupled, and observable components.
+*   **Forensic mindset:** Data is evidence; ensure it is traceable and untampered.
+*   **Signal over noise:** Aggressive filtering to surface high-value intelligence.
+*   **Automation with intent:** Purpose-driven orchestration of system lifecycles.
 
 ---
 
-## 📡 Specialized Domains & Research
-* **Wireless / RF Analysis:** SIGINT-inspired tracking and signal characterization.
-* **Geospatial Systems:** PostGIS optimization and coordinate system integrity.
-* **Cloud & DevOps:** Hardened AWS infrastructure and rigorous IAM policing.
-* **Android Systems:** Sideloading, telemetry control, and edge ingestion.
-* **Energetics & Propulsion:** Research into APCP burn dynamics and patent development.
+## 📡 Specialized Domains
+*   **Wireless / RF Analysis:** SIGINT-inspired signal characterization and tracking.
+*   **Geospatial Systems:** PostGIS optimization and coordinate system integrity.
+*   **AWS Cloud Infrastructure:** Hardened environments (IAM, S3, EC2 Graviton/ARM64).
+*   **Android Systems:** Sideloading, telemetry control, and edge ingestion.
+*   **Energetics & Propulsion:** Research into APCP burn dynamics and propulsion patents.
 
 ---
 
-## 🛡️ Security & Infrastructure Focus
-* **Network:** Unbound + dnscrypt-proxy for encrypted, private DNS.
-* **Hardening:** DNSSEC validation and UFW-managed security policies.
-* **Privilege:** Strict non-root environments and minimal-surface configurations.
+## 🛡️ Security & Infrastructure
+*   **DNS Hardening:** Privacy-first resolution via Unbound and dnscrypt-proxy.
+*   **Enforcement:** Strict DNSSEC validation and UFW-managed security policies.
+*   **Least Privilege:** Mandatory non-root execution environments and minimal attack surfaces.
 
 ---
 
 ## ⌨️ Workflow Style
-* **Multi-agent AI:** Claude, GPT, and Gemini for rapid R&D iteration.
-* **CLI-first:** Terminal-driven development and systems administration.
-* **Framework:** Modular Python execution for repeatable research tasks.
-* **Versioned:** Rigorous git-based iteration for all infrastructure and code.
+*   **Multi-agent AI:** Leveraging Claude, GPT, and Gemini for accelerated R&D and logic auditing.
+*   **CLI-First:** Terminal-driven engineering and systems administration.
+*   **Execution Framework:** Modular Python structures for repeatable research tasks.
+*   **Versioned Iteration:** Strict version control and CI/CD for system reproducibility.
 
 ---
 
 ## 📍 Operating Context
-* **Location:** Flint, Michigan
-* **Experience:** 30+ years in systems engineering.
-* **Background:** Management Information Systems (MIS).
+*   **Location:** Flint, Michigan
+*   **Experience:** 30+ years in systems engineering and architecture.
+*   **Background:** Management Information Systems (MIS).
 
 ---
 
 ## 🎯 Current Focus
-* **ShadowCheck Refactoring:** Enhancing pipeline modularity and signal metadata.
-* **Data Enrichment:** Developing automated enrichment for ingestion pipelines.
-* **AWS Hardening:** Implementing Graviton-native security best practices.
-* **Mobile-to-Cloud:** Optimizing real-time telemetry from edge collection nodes.
+*   **Modular Refactoring:** Transitioning ShadowCheck into a clean, componentized architecture.
+*   **Pipeline Reliability:** Hardening the ingestion transport layer for increased field data volume.
+*   **Signal Classification:** Enhancing algorithms for precision geospatial enrichment.
+*   **Sovereign Collection:** Accelerating the migration from WiGLE dependencies to ShadowCheckMobile.
 
 ---
 
